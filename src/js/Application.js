@@ -21,6 +21,6 @@ export default class Application extends EventEmitter {
     const elem = document.createElement("p");
   document.getElementsById("emojis").appendChild(elem);
   let newArr = this.emojis.map((monkey) => monkey + this.banana);
-  elem.innerHTML=newArr  
+  elem.innerHTML=newArr;
   }
 }
